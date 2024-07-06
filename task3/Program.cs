@@ -17,7 +17,7 @@ void Main()
             return;
         }
         Console.Write(arr[size] + ", ");
-        reverseArray(arr[..size]);
+        reverseArray(arr[..size]); // Обрезаем крайний правый элеемент массива при следующем круге рекурсии ПРИМЕР => S7-task3
     }
 }
 Main();
